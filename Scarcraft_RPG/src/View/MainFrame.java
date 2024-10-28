@@ -20,14 +20,13 @@ public class MainFrame extends JFrame{
 	
 	public void playGame() { // 게임 시작 함수
 		
-		
-		drawBackground(0,0);
+		drawBackground(500,500);
 	}
 	
 	public void drawBackground(int row, int col) {
 		background.setStartPoint(row, col);
 		this.add(background);
-		repaint();
+		
 	}
 	
 	
